@@ -1,0 +1,445 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    /* background-image: url(../images/nav3.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #222B30;
+    width: 100vw;
+}
+
+
+
+
+
+.min-height-60 {
+    min-height: 60px;
+}
+
+.min-height-120 {
+    min-height: 120px;
+}
+
+.min-height-150 {
+    min-height: 150px;
+}
+
+.min-height-180 {
+    min-height: 180px;
+}
+
+.min-height-250 {
+    min-height: 250px;
+}
+
+.min-height-360 {
+    min-height: 360px;
+}
+
+.min-height-400{
+    min-height: 400px;
+}
+.min-height-480{
+    min-height: 480px;
+}
+
+.min-height-540 {
+    min-height: 540px;
+}
+
+.loadingScreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #222B30;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccdcf;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+
+#line{
+    background-color: #F83847;
+    height: 3px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.bottomPadding{
+    padding-bottom: 15px;
+}
+
+.topPadding{
+    padding-top: 15px;
+}
+
+.displayCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.paddingBottom{
+    padding-bottom: 20px;
+}
+
+
+
+/* ! Below code is for header */
+
+.nav{
+    background-color: #F83847;
+    /* background-image: url(../images/nav2.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.search,.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.search{
+    justify-content: flex-end;
+}
+
+.search > input{
+    margin-right: -10;
+}
+
+.search > input{
+    border: none;
+    border-radius: 15px;
+    width: 542px;
+    margin-top: 13px;
+    background-color: rgba(213, 213, 211, 0.555);
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: 900;
+    color: #cccdcf;
+}
+
+
+/* ! Below is the code for splash page */
+
+.splashBG-top{
+    /* background-image: url(../images/movieBG-top-dark1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* height: 500px; */
+    background-color: #191D20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.splashPage-poster{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30rem;
+    /* margin-left: 30px;
+    margin-right: 0px; */
+}
+
+.splashPage-poster > img{
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.273),inset -30px -30px 60px rgba(255, 255, 255, 0.478);
+}
+
+.splashPage-trailer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+}
+
+.splashPage-trailer > iframe{
+    width:670px;
+    height:285px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.273),inset -30px -30px 60px rgba(255, 255, 255, 0.478);
+}
+
+.movie:hover{
+    cursor :pointer;
+    scale:1.02;
+    transition: ease 0.3s;
+}
+.person:hover{
+    cursor :pointer;
+    scale:1.02;
+}
+
+.nowPlaying{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+    color: #cccdcf;
+}
+
+.posterContainer-splash{
+    text-align: center;
+    padding: 0px 20px 30px 20px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.posterContainer-splash h5{
+    margin-bottom: 0;
+    padding: 0;
+    color:#cccdcf
+}
+
+.posterContainer-splash >div :nth-child(2){
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.posterContainer-splash >div :nth-child(3){
+    color: #829eb0;
+}
+
+.movie img{
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.554),inset -30px -30px 60px rgba(255, 255, 255, 0.478);
+    /* border: 1px solid rgb(212, 212, 212); */
+}
+
+/* ! Movie page code */
+
+
+.movieBG-top{
+    background-color: #191D20;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.try{
+    padding-bottom:15px;
+}
+
+.moviePage-poster img{
+    height: 500px;
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.273),inset -30px -30px 60px rgba(255, 255, 255, 0.478);
+    /* border: 1px solid rgb(212, 212, 212); */
+}
+
+.moviePage-trailer > iframe{
+    width: 464px;
+    height: 265px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.273),inset -30px -30px 60px rgba(255, 255, 255, 0.478);
+}
+
+.movieName, .starring, .movieImages, .relatedMovies, .actorName{
+    display: flex;
+    font-size: 27px;
+    flex-direction: column;
+    color: #cccdcf;
+    font-weight: 600;
+}
+
+.movieName, .actorName{
+    font-size: 31px;
+    font-weight: 800;
+    padding: 15px 0px 0px 25px;
+}
+
+.movieInfo{
+    color: #829eb0;
+}
+
+.movieInfo h5 span{
+    color: #cccdcf;
+    font-weight: 700;
+}
+
+.movieDescript{
+    font-size: 22px;
+    color: #cccdcf;
+}
+
+.actorContainer-movie{
+    text-align: center;
+    color: #cccdcf;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding: 0px 20px 0px 20px; */
+}
+
+.person img{
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.273),inset -30px -30px 60px rgba(255, 255, 255, 0.478);
+}
+
+.movie-images img{
+    border-radius: 15px;
+}
+
+.actorContainer-movie > div :nth-child(2){
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.actorContainer-movie > div :nth-child(3){
+    font-size: 17px;
+    color: #829eb0;
+}
+
+.posterContainer-moviePage{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.posterContainer-moviePage > div :nth-child(2){
+    margin-top: 8px;
+    font-weight: 400;
+    color: #cccdcf;
+}
+
+.posterContainer-moviePage > div :nth-child(3){
+    color: #829eb0;
+}
+
+
+/*! person page code*/
+
+.personBG-top{
+    background-color: #191D20;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.person:hover{
+    cursor:pointer;
+}
+
+.actorInfo,.actorBio{
+    color: #cccdcf;
+}
+
+.actorInfo h6{
+    font-size: 23px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+}
+
+.bgBlur{
+    padding-right: 0px;
+}
+.actorInfo h5{
+    margin:0;
+    padding:0;
+    color: #829eb0;
+    /* padding-bottom: 15px; */
+}
+
+.actorName{
+    padding-left: 32px;
+    font-size: 31px;
+}
+
+
+.actorBio{
+    font-size: 22px;
+}
+
+.actorIMG > img{
+    width: 250px;
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.273),inset -30px -30px 60px rgba(255, 255, 255, 0.478);
+}
+
+.posterContainer-peoplePage{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    color: #cccdcf;
+    justify-content: center;
+    align-items: center;
+}
+
+.posterContainer-peoplePage > div :nth-child(2){
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.posterContainer-peoplePage > div :nth-child(3){
+    color: #829eb0;
+}
+
+
+
+/*! footer code */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.715);
+}
+
+.menu-list
+{
+    background-color: rgba(255, 255, 255, 0.736);
+    z-index: 10000;
+    position: absolute;
+    margin-top: 33.5rem;
+    overflow-y: scroll;
+    height: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    /* padding: 20px; */
+}
+
+.menu-style{
+    width: 500px;
+    margin: 20px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-style img{
+    height: 150px;
+    margin-right:20px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+.menu-style span{
+    flex: 1;
+    text-align: center;
+}
